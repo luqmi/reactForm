@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: none;
+}
+
+
+/* Main_container  */
+.cont{
+    background-image: url("./images/img1.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* background: rgb(110, 45, 45); */
+}
+/* child_container   */
+.form{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    width: 25%;
+    height: 50vh;
+    background: #000;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+}
+/* h1_tag  */
+.hd{
+    margin-bottom: 30px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* div1  */
+.user{
+    
+}
+/* div2  */
+.password{
+    margin-top: 10px;
+}
+/* In div2 input_tag  */
+.ps_input{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+/* In div1 input_tag  */
+.user_input{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+/* For button  */
+.btn{
+    padding: 5px 65px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+@media screen and (max-width: 350px ){
+    .form{
+        width: 35%;
+        height: 30vh;
+        background: rgb(85, 119, 182);
+        overflow: hidden;
+    }
+    .hd{
+        font-size: 12px;
+        margin-bottom: 10px;
+        color: aliceblue;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .user_input{
+        width: 55px;
+        padding: 1px;
+    }
+    input[type='text']{
+        font-size: 10px;
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+    }
+    input[type='password']{
+        font-size: 10px;
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+    }
+    .ps_input{
+        width: 55px;
+        padding: 1px;
+    }
+     .btn{
+        font-weight: bold;
+        font-size: 10px;
+        padding: 2px 8px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+    
+}
+
+
+@media screen and (min-width: 350px ) and (max-width: 580px){
+
+.form{
+    width: 40%;
+    height: 40vh;
+    background: rgb(210, 27, 27);
+}
+.hd{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.user_input{
+    width:120px;
+    padding: 2px ;
+
+}
+.ps_input{
+    width:120px;
+    padding: 2px ;
+}
+input[type='text']{
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+input[type='password']{
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.btn{
+    font-weight: bold;
+    padding: 2px 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+}
+
+@media screen and (min-width: 580px ) and (max-width: 780px){
+
+    .form{
+        width: 40%;
+        height: 50vh;
+        background: rgb(13, 164, 146);
+    }
+    .hd{
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: aliceblue;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    input[type='text']{
+        font-size: 16px;
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+    }
+    input[type='password']{
+        font-size: 16px;
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+    }
+    .user_input{
+        width: 125px;
+        padding: 4px;
+    
+    }
+    .ps_input{
+        width: 125px;
+        padding: 4px;
+    }
+    .btn{
+        font-weight: bold;
+        padding: 4px 40px;
+        margin-top: 10px;
+        border-radius: 10px;
+    border: none;
+    }
+    
+    }
